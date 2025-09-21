@@ -79,3 +79,16 @@ hémoglobinopathies, déficits enzymatiques)...
 ```
 ### 8. Quitter
 Quittez avec ``quit`` ou ``ctrl C``
+
+## Retour d’expérience sur le test
+
+Je tiens à préciser que je **n’avais jamais construit de système de Question-Answering (QA) avec un LLM en utilisant des techniques de RAG** auparavant.  
+De ce fait, la réalisation de ce test m’a demandé environ **huit heures de travail**.
+
+Une partie non négligeable de ce temps a été consacrée à **résoudre les conflits entre différents packages** ainsi qu’à trouver un modèle de LLM capable de traiter correctement le **langage français** sans produire trop d’hallucinations.  
+
+Pour avancer, je me suis principalement appuyé sur :  
+- 👉 [Cet article Medium](https://medium.com/@ynikose/building-an-intelligent-pdf-question-answering-system-with-langchain-and-llama-2-0db84c6daabb) qui m’a servi de guide de départ.  
+- 👉 Claude et ChatGPT, que j’ai utilisés pour m’aider à **corriger des erreurs de packages** et à **déboguer mes propres erreurs de code**.  
+
+Ce travail m’a permis de mieux comprendre les subtilités de l’intégration entre LangChain, les modèles HuggingFace et les bases vectorielles. Même si ce fut un vrai défi, j’ai apprécié le processus d’apprentissage et d’exploration.
